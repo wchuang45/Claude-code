@@ -1,5 +1,5 @@
-```markdown
 # Claude-code
+```markdown
 
 Claude Code 安装流程及自定义 Skill 配置指南
 
