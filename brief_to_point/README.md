@@ -15,16 +15,7 @@
 # 1. 创建并进入目标技能目录
 mkdir -p ~/.claude/skills/brief_to_point && cd ~/.claude/skills/brief_to_point
 
-# 2. 初始化 Git 并关联远程仓库
-git init
-git remote add origin [https://github.com/wchuang45/Claude-code.git](https://github.com/wchuang45/Claude-code.git)
-
-# 3. 开启稀疏检出，配置仅下载 brief_to_point 文件夹内的内容
-git config core.sparseCheckout true
-git sparse-checkout set --no-cone "brief_to_point/*"
-
-# 4. 拉取代码并将子文件夹内的文件直接释放到当前目录
-git pull origin main --depth=1
-mv brief_to_point/* ./ && rm -rf brief_to_point
+# 2. 将该仓库下的skill.json和README.md拷贝到 ~/.claude/skills/brief_to_point文件夹下即可
+# 3. 启动claude，输入：帮我激活一下~/.claude/skills/brief_to_point这个skill即可
 
 
