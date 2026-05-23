@@ -17,5 +17,6 @@ mkdir -p ~/.claude/skills/brief_to_point && cd ~/.claude/skills/brief_to_point
 
 # 2. 将该仓库下的skill.json和README.md拷贝到 ~/.claude/skills/brief_to_point文件夹下即可
 # 3. 启动claude，输入：帮我激活一下~/.claude/skills/brief_to_point这个skill即可
+# 4. 重启claude生效skill
 
 
